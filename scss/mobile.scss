@@ -1,0 +1,137 @@
+@import './global/global.scss';
+
+@media only screen and (max-width: 1418px) {
+
+    .about {
+
+        .about-text {
+
+            .about-text-content {
+                padding:30px 30px; 
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1269px) {
+
+    .about {
+
+        height: 400px;
+
+        .about-img {
+            height: 400px;
+        }
+
+        .about-text {
+
+            height: 400px;
+
+            .about-text-content {
+                padding: 10px 10px;
+            }
+        }
+    }
+
+    .attendees {
+        height: 600px;
+    }
+
+    .program {
+
+        height: 700px;
+
+        .program-img {
+            height: 700px;
+        }
+
+        .program-content {
+            padding: 20px 20px;
+        }
+
+        .program-content-black {
+            padding: 20px 20px;
+        }
+    }
+
+    .description {
+
+        .desc-content {
+            padding: 50px 50px;
+        }
+
+        .desc-countdown-content {
+            padding: 50px 20px;
+
+            p {
+                font-size: 25px;
+            }
+        }
+
+        .desc-directions {
+            display: none;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1147px) {
+
+    .about {
+
+        .about-img {
+            height: 600px;
+        }
+
+        .about-text {
+            height: 600px;
+        }
+    }
+
+    .attendees {
+        margin-top:200px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about {
+        height: 50px;
+
+        .about-img {
+            display: none;
+        }
+    }
+
+    .attendees {
+        margin-top: 450px;
+        height: 1700px;
+    }
+
+    .program {
+        height: 800px;
+    }
+
+    .directions {
+        margin-top: 550px;
+        background-color: $beige-light;
+    }
+
+    .description {
+        
+        .desc-countdown {
+            height: 600px;
+            background-color: #1D1D2B;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 477px) {
+
+    .about {
+        height: 100px;
+    }
+}

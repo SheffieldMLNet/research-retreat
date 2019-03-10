@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+
+// Set brand colors
+$dark-blue: #1D1D2B;
+$light-blue: #3EB7D0;
+$yellow: #FCEF04;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$family-sans-serif: "Poppins", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $dark-blue;
+$link: $light-blue;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+
+// Import only what you need from Bulma
+@import "../../bulma/sass/utilities/_all.sass";
+@import "../../bulma/sass/base/_all.sass";
+@import "../../bulma/sass/grid/_all.sass";
+
+@import "../../bulma/sass/elements/button.sass";
+@import "../../bulma/sass/elements/container.sass";
+@import "../../bulma/sass/elements/title.sass";
+@import "../../bulma/sass/elements/box.sass";
+
+@import "../../bulma/sass/components/navbar.sass";
+
+@import "../../bulma/sass/layout/hero.sass";
+@import "../../bulma/sass/layout/section.sass";

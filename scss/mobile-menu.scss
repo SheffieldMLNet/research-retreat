@@ -1,0 +1,36 @@
+@import './global/global.scss';
+
+#mobilemenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:$dark-blue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+    #mobilemenu ul li{
+        list-style: none;
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+    #mobilemenu a {
+        color:$light-blue;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    #mobilemenu a:hover {
+        color:$yellow;
+    }
+    #mobilemenu .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }

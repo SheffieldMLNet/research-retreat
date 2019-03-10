@@ -1,0 +1,359 @@
+@charset "utf-8";
+
+// Import global.scss
+@import "../scss/global/global.scss";
+
+// Set variables
+$title-font: "Raleway", sans-serif;
+$font-size-xsm: 13px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+
+body {
+    background-color: $light-blue;
+}
+
+// Navbar styles
+.navbar {
+    padding: 30px 40px; 
+    text-transform: uppercase;
+
+    // Navbar brand
+    p {
+        font-family: $title-font;
+        font-size: $font-size-lg;
+    }
+
+    // Navbar items
+    .navbar-item {
+        font-family: $title-font;
+        font-size: $font-size-xsm;
+        font-weight: 700;
+        margin-right: 20px;
+    }
+} 
+
+// Navbar items hover effect
+.hero.is-primary a.navbar-item:hover {
+    background-color: transparent!important;
+    color: $light-blue!important;
+}
+// Navbar brand hover effe
+.hero.is-primary a.navbar-item:nth-of-type(1):hover {
+    color: $yellow!important;
+}
+
+// Hero styles
+.hero {
+    // Hero Background image
+    background: linear-gradient(rgba(62, 183, 208, 0.5),rgba(62, 183, 208, 0.5)), url('../img/1400x940/2-dark.png');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+
+    // Hero body
+    .hero-body {
+        font-family: $title-font;
+
+        // Subtitle
+        .subtitle {
+            font-weight: 300;
+            font-size: 40px;
+            color: $yellow;
+        }
+        // Title
+        .title {
+            font-size: 60px;
+            font-weight: 700;
+        }
+        // Description
+        p {
+            font-size: $font-size-lg;
+            font-weight: 500;
+        }
+    }
+}
+
+// About styles
+.about {
+    height: 500px;
+    margin-top: 12px;
+
+    // About image
+    .about-img {
+        height: 500px;
+        background: url('../img/1400x940/5.jpg');
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    // About text
+    .about-text {
+        background-color: white;
+        height: 500px;
+
+        .about-text-content {
+            padding: 80px 80px;
+
+            img {
+                float: right;
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-family: $title-font;
+                color: rgba(0, 0, 0, 0.8);
+                font-size: 38px;
+                font-weight: 800;
+            }
+            h5 {
+                font-size: 22px;
+                font-style: italic;
+                color: rgba(0, 0, 0, 0.6);
+            }
+            p {
+                color: rgba(0, 0, 0, 0.5);
+                word-spacing: 1px;
+            }
+            p:nth-of-type(1) {
+                margin: 30px 0;
+            }
+        }
+    }
+}
+
+// Attendees styles
+.attendees {
+    height: 500px;
+    background-color:$beige-lighter;
+
+    // Attendess title
+    h3 {
+        padding-top: 20px;
+        font-family: $title-font;
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 38px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    hr {
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    // Speaker box
+    .attendees-box {
+        padding: 20px 40px;
+
+        h5 {
+            font-size: $font-size-lg;
+            color: rgba(0, 0, 0, 0.8);
+            margin-bottom: 5px;
+        }
+        p {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        i {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+    }
+}
+
+// Program styles
+.program {
+    height: 650px;
+
+    // Program image box
+    .program-img {
+        height: 650px;
+        background: linear-gradient(rgba(62, 183, 208, 0.5),rgba(62, 183, 208, 0.5)), url('../img/1400x940/1-dark.png');
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    // Program no image box
+    .program-no-img {
+        background-color: white;
+    }
+
+    // Program content
+    .program-content {
+        padding: 70px 80px;
+
+        h5 {
+            font-size: 21px;
+            color: $beige-lighter;
+            font-weight: 500;
+        }
+
+        h3 {
+            font-size: 45px;
+            font-family: $title-font;
+            color: $beige-lighter;
+            font-weight: 300;
+        }
+
+        h6 {
+            font-size: $font-size-md;
+            color: $beige-lighter;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+
+        .line {
+            height: 1px;
+            background-color: $beige-light;
+            width: 100px;
+            margin-bottom: 40px;
+        }
+        p {
+            color: $beige-light;
+            margin-bottom: 40px;
+        }
+        ul li {
+            color: $beige-light;
+            margin-bottom: 20px;
+        }
+        ul li span {
+            color: white;
+            margin-left: 30px;
+        }
+    }
+
+    // Program content
+    .program-content-black {
+        padding: 70px 80px;
+
+        h5 {
+            font-size: 21px;
+            color: rgb(39, 39, 39);
+            font-weight: 500;
+        }
+
+        h3 {
+            font-size: 45px;
+            font-family: $title-font;
+            color: rgb(54, 54, 54);
+            font-weight: 300;
+        }
+
+        h6 {
+            font-size: $font-size-md;
+            color: black;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+
+        .line-black {
+            height: 1px;
+            background-color: black;
+            width: 100px;
+            margin-bottom: 40px;
+        }
+        p {
+            color: rgba(0, 0, 0, 0.6);
+            margin-bottom: 40px;
+        }
+        ul li {
+            color: rgba(0, 0, 0, 0.6);
+            margin-bottom: 20px;
+        }
+        ul li span {
+            color: black;
+            margin-left: 30px;
+        }
+    }
+}
+
+// Directions styles
+.directions {
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+
+    i {
+        color: rgba(0, 0, 0, 0.9);
+        font-size: 35px;
+    }
+    h3 {
+        font-family: $title-font;
+        font-size: 45px;
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.8);
+        margin-bottom: 20px;
+    }
+    p {
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+// Map styles
+.map {
+    padding: 0;
+}
+
+// Description & Countdown styles
+.description {
+    height: 350px;
+    margin-top: 12px;
+
+    // Contact
+    .desc-contact {
+        background-color: $light-blue;
+        height: 350px;
+    }
+
+    // Description content box
+    .desc-content {
+        padding: 70px 60px;
+        color: $beige-lighter;
+
+        h4 {
+            font-family: $title-font;
+            font-size: $font-size-lg; 
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 17px;
+        }
+
+        // Social Icons
+        .desc-content-social {
+            font-size: 22px;
+            margin-top: 20px;
+
+            i {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+// Footer Styles
+.footer {
+    height: 80px;
+    background-color: $dark-blue;
+    text-align: center;
+    
+    p {
+        text-transform: uppercase;
+        color: $beige-light;
+        font-size: 15px;
+        padding-top: 30px;
+    }
+}
