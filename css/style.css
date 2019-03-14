@@ -5217,6 +5217,7 @@ body {
 .description {
   height: 350px;
   margin-top: 12px;
+  position: relative;
 }
 .description .desc-contact {
   background-color: #3EB7D0;
