@@ -4966,6 +4966,7 @@ body.has-spaced-navbar-fixed-bottom {
 
   .attendees {
     height: 600px;
+    height: 1200px;
   }
 
   .program {
@@ -5004,6 +5005,7 @@ body.has-spaced-navbar-fixed-bottom {
 
   .attendees {
     margin-top: 200px;
+    height: 1200px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -5016,7 +5018,7 @@ body.has-spaced-navbar-fixed-bottom {
 
   .attendees {
     margin-top: 450px;
-    height: 1700px;
+    height: 4500px;
   }
 
   .program {
@@ -5028,6 +5030,9 @@ body.has-spaced-navbar-fixed-bottom {
     background-color: #D0D1CD;
   }
 
+  .description {
+    height: 1400px;
+  }
   .description .desc-countdown {
     height: 600px;
     background-color: #1D1D2B;

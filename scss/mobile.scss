@@ -35,6 +35,7 @@
 
     .attendees {
         height: 600px;
+		height: 1200px;
     }
 
     .program {
@@ -90,8 +91,9 @@
 
     .attendees {
         margin-top:200px;
+		height: 1200px;
     }
-
+	
 }
 
 @media only screen and (max-width: 768px) {
@@ -106,7 +108,7 @@
 
     .attendees {
         margin-top: 450px;
-        height: 1700px;
+        height: 4500px;
     }
 
     .program {
@@ -119,7 +121,8 @@
     }
 
     .description {
-        
+        height: 1400px;
+		
         .desc-countdown {
             height: 600px;
             background-color: #1D1D2B;
