@@ -170,11 +170,11 @@ body {
 
 // Program styles
 .program {
-    height: 650px;
+    height: 700px;
 
     // Program image box
     .program-img {
-        height: 650px;
+        height: 700px;
         background: linear-gradient(rgba(62, 183, 208, 0.5),rgba(62, 183, 208, 0.5)), url('../img/1400x940/1-dark.png');
         background-position:center;
         background-size: cover;
@@ -329,19 +329,19 @@ body {
 
 // Description & Countdown styles
 .description {
-    height: 350px;
+    height: 250px;
     margin-top: 12px;
 	position: relative;
 	
     // Contact
     .desc-contact {
         background-color: $light-blue;
-        height: 350px;
+        height: 250px;
     }
 
     // Description content box
     .desc-content {
-        padding: 70px 60px;
+        padding: 50px 40px 0px 50px;
         color: $beige-lighter;
 
         h4 {

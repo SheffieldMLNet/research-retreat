@@ -5077,10 +5077,10 @@ body {
 }
 
 .program {
-  height: 650px;
+  height: 700px;
 }
 .program .program-img {
-  height: 650px;
+  height: 700px;
   background: linear-gradient(rgba(62, 183, 208, 0.5), rgba(62, 183, 208, 0.5)), url("../img/1400x940/1-dark.png");
   background-position: center;
   background-size: cover;
@@ -5215,16 +5215,16 @@ body {
 }
 
 .description {
-  height: 350px;
+  height: 250px;
   margin-top: 12px;
   position: relative;
 }
 .description .desc-contact {
   background-color: #3EB7D0;
-  height: 350px;
+  height: 250px;
 }
 .description .desc-content {
-  padding: 70px 60px;
+  padding: 50px 40px 0px 50px;
   color: #EFF0EB;
 }
 .description .desc-content h4 {
