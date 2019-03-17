@@ -5039,7 +5039,7 @@ body {
 }
 
 .attendees {
-  height: 1000px;
+  height: 640px;
   background-color: #EFF0EB;
 }
 .attendees h3 {
@@ -5249,11 +5249,14 @@ body {
   background-color: #1D1D2B;
   text-align: center;
 }
-.footer p {
+.footer h4 {
   text-transform: uppercase;
   color: #D0D1CD;
   font-size: 15px;
   padding-top: 30px;
+}
+.footer p {
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

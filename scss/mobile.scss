@@ -11,6 +11,10 @@
             }
         }
     }
+	
+    .attendees {
+		height: 640px;
+    }	
 }
 
 @media only screen and (max-width: 1269px) {
@@ -34,8 +38,7 @@
     }
 
     .attendees {
-        height: 600px;
-		height: 1200px;
+		height: 640px;
     }
 
     .program {
@@ -61,14 +64,6 @@
             padding: 50px 50px;
         }
 
-        .desc-countdown-content {
-            padding: 50px 20px;
-
-            p {
-                font-size: 25px;
-            }
-        }
-
         .desc-directions {
             display: none;
         }
@@ -76,6 +71,8 @@
     
 }
 
+
+// 769-798px -> 5th ".description" col is hidden
 @media only screen and (max-width: 1147px) {
 
     .about {
@@ -91,13 +88,15 @@
 
     .attendees {
         margin-top:200px;
-		height: 1200px;
-    }
-	
-	
-	
+		height: 640px;
+    }	
 }
 
+
+
+
+
+// ".attendees" becomes one column
 @media only screen and (max-width: 768px) {
 
     .about {
@@ -109,29 +108,26 @@
     }
 
     .attendees {
-        margin-top: 450px;
-        height: 4500px;
+        margin-top: 350px;
+        height: 1700px;
     }
 
     .program {
-        height: 800px;
+        height: 700px;
     }
 
     .directions {
-        margin-top: 550px;
+        margin-top: 610px;
         background-color: $beige-light;
     }
 
     .description {
-        height: 1200px;
-		
-        .desc-countdown {
-            height: 600px;
-            background-color: #1D1D2B;
-        }
-
+        height: 1100px;
     }
-
+	
+	.footer{
+		height: 100px;
+	}
 }
 
 @media only screen and (max-width: 477px) {
@@ -145,26 +141,24 @@
     }
 
     .attendees {
-        margin-top: 450px;
-        height: 4500px;
+        margin-top: 350px;
+        height: 1700px;
     }
 
     .program {
-        height: 800px;
+        height: 700px;
     }
 
     .directions {
-        margin-top: 550px;
+        margin-top: 610px;
         background-color: $beige-light;
     }
 
     .description {
-        height: 1200px;
-		
-        .desc-countdown {
-            height: 600px;
-            background-color: #1D1D2B;
-        }
-
+        height: 1100px;
     }
+	
+	.footer{
+		height: 100px;
+	}	
 }
