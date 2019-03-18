@@ -47,7 +47,8 @@ body {
 // Hero styles
 .hero {
     // Hero Background image
-    background: linear-gradient(rgba(62, 183, 208, 0.5),rgba(62, 183, 208, 0.5)), url('../img/1400x940/2-dark.png');
+	//image credits: Copyright David Dixon (CC BY-SA 2.0)
+    background: linear-gradient(rgba(62, 183, 208, 0.7),rgba(62, 183, 208, 0.7)), url('../img/images/chimney-dark.jpg');
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -126,7 +127,8 @@ body {
 
 // Attendees styles
 .attendees {
-    height: 640px;
+    height: 500px;
+	padding-top: 10px;
     background-color:$beige-lighter;
 
     // Attendess title
@@ -175,7 +177,16 @@ body {
     // Program image box
     .program-img {
         height: 700px;
-        background: linear-gradient(rgba(62, 183, 208, 0.5),rgba(62, 183, 208, 0.5)), url('../img/1400x940/1-dark.png');
+		//image credits: Copyright Alan Burnett (CC BY-SA 2.0)
+        background: linear-gradient(rgba(62, 183, 208, 0.85),rgba(62, 183, 208, 0.85)), url('../img/images/museum-dark.jpg');
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+	
+	.program-img-nofilter {
+        height: 700px;
+        background: url('../img/1400x940/5.jpg');
         background-position:center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -188,7 +199,7 @@ body {
 
     // Program content
     .program-content {
-        padding: 70px 80px;
+        padding-top: 40px;
 
         h5 {
             font-size: 21px;
@@ -226,26 +237,30 @@ body {
         p {
             color: $beige-light;
             margin-bottom: 40px;
+			text-align: center;
         }
         ul li {
             color: $beige-light;
             margin-bottom: 20px;
+			text-align: center;
         }
         ul li span {
             color: white;
             margin-left: 30px;
+			text-align: center;
         }
     }
 
     // Program content
     .program-content-black {
-        padding: 70px 80px;
+		padding-top: 40px;
 
         h5 {
             font-size: 21px;
             color: rgb(39, 39, 39);
             font-weight: 500;
 			text-align: center;
+			text-transform: uppercase;
         }
 
         h3 {
@@ -277,55 +292,73 @@ body {
         p {
             color: rgba(0, 0, 0, 0.6);
             margin-bottom: 40px;
+			text-align: center;
         }
         ul li {
             color: rgba(0, 0, 0, 0.6);
             margin-bottom: 20px;
+			text-align: center;
         }
         ul li span {
             color: black;
             margin-left: 30px;
+			text-align: center;
         }
     }
 }
 
 // Directions styles
 .directions {
-    height: 300px;
+    height: 600px;
     background-color: white;
     text-align: center;
-    padding-top: 40px;
 
-    i {
-        color: rgba(0, 0, 0, 0.9);
-        font-size: 35px;
-    }
-    h3 {
-        font-family: $title-font;
-        font-size: 45px;
-        font-weight: 300;
-        color: rgba(0, 0, 0, 0.8);
-        margin-bottom: 20px;
-    }
-    p {
-        color: rgba(0, 0, 0, 0.5);
-    }
+	.directions-text {
+		padding-top: 120px;
+		i {
+			color: rgba(0, 0, 0, 0.9);
+			font-size: 35px;
+		}
+		h3 {
+			font-family: $title-font;
+			font-size: 45px;
+			font-weight: 300;
+			color: rgba(0, 0, 0, 0.8);
+			margin-bottom: 20px;
+		}
+		h2 {
+			font-family: $title-font;
+			font-size: 25px;
+			font-weight: 300;
+			color: rgba(0, 0, 0, 0.8);
+			margin-bottom: 10px;
+		}		
+		p {
+			color: rgba(0, 0, 0, 0.5);
+		}
+	}	
+	
+	// Map styles
+	.map {
+		height: 540px;
+		position: relative;
+		overflow: hidden;
+		padding-top: 56.25%;		
+	}
+	.map-iframe {
+		height: 540px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-right: 80px;
+		width: 100%;
+		height: 100%;
+		border: 0;
+		padding-top: 50px;
+	}
 }
 
-// Map styles
-.map {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-}
-.map-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
+
 
 // Description & Countdown styles
 .description {
