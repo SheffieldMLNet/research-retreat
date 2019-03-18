@@ -4974,7 +4974,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(rgba(62, 183, 208, 0.7), rgba(62, 183, 208, 0.7)), url("../img/images/chimney-dark.jpg");
+  background: linear-gradient(rgba(62, 183, 208, 0.5), rgba(62, 183, 208, 0.5)), url("../img/images/train.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5081,14 +5081,14 @@ body {
 }
 .program .program-img {
   height: 700px;
-  background: linear-gradient(rgba(62, 183, 208, 0.85), rgba(62, 183, 208, 0.85)), url("../img/images/museum-dark.jpg");
+  background: linear-gradient(rgba(62, 183, 208, 0.9), rgba(62, 183, 208, 0.9)), url("../img/images/museum-dark.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .program .program-img-nofilter {
   height: 700px;
-  background: url("../img/1400x940/5.jpg");
+  background: url("../img/images/KIMc.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5271,7 +5271,7 @@ body {
 }
 
 .footer {
-  height: 80px;
+  height: 100px;
   background-color: #1D1D2B;
   text-align: center;
 }

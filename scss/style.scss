@@ -48,7 +48,7 @@ body {
 .hero {
     // Hero Background image
 	//image credits: Copyright David Dixon (CC BY-SA 2.0)
-    background: linear-gradient(rgba(62, 183, 208, 0.7),rgba(62, 183, 208, 0.7)), url('../img/images/chimney-dark.jpg');
+    background: linear-gradient(rgba(62, 183, 208, 0.5),rgba(62, 183, 208, 0.5)), url('../img/images/train.jpg');
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@ body {
     .program-img {
         height: 700px;
 		//image credits: Copyright Alan Burnett (CC BY-SA 2.0)
-        background: linear-gradient(rgba(62, 183, 208, 0.85),rgba(62, 183, 208, 0.85)), url('../img/images/museum-dark.jpg');
+        background: linear-gradient(rgba(62, 183, 208, 0.9),rgba(62, 183, 208, 0.9)), url('../img/images/museum-dark.jpg');
         background-position:center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -186,7 +186,7 @@ body {
 	
 	.program-img-nofilter {
         height: 700px;
-        background: url('../img/1400x940/5.jpg');
+        background: url('../img/images/KIMc.jpg');
         background-position:center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -402,7 +402,7 @@ body {
 
 // Footer Styles
 .footer {
-    height: 80px;
+    height: 100px;
     background-color: $dark-blue;
     text-align: center;
     

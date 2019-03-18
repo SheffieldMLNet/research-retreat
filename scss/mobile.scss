@@ -15,6 +15,7 @@
     .attendees {
 		height: 500px;
     }	
+	
 }
 
 @media only screen and (max-width: 1269px) {
@@ -68,7 +69,10 @@
             display: none;
         }
     }
-    
+	
+ 	.footer{
+		height: 100px;
+	}   
 }
 
 
@@ -94,6 +98,10 @@
     .program {
         height: 500px;
     }	
+	
+	.footer{
+		height: 100px;
+	}	
 }
 
 
@@ -201,5 +209,57 @@
 	
 	.footer{
 		height: 100px;
+	}	
+}
+
+
+@media only screen and (max-width: 428px) {
+
+    .about {
+        height: 50px;
+
+        .about-img {
+            display: none;
+        }
+    }
+
+    .attendees {
+        margin-top: 350px;
+        height: 1700px;
+    }
+
+    .program {
+        height: 700px;
+		
+		.program-img-nofilter {
+			display: none;
+		}
+    }
+
+	.directions {
+		height: 900px;
+		.map {
+			height: 540px;
+			position: relative;
+			overflow: hidden;
+			padding-top: 56.25%;		
+		}
+		.map-iframe {
+			height: 540px;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			border: 0;
+			padding-left: 90px;
+			padding-top: 50px;
+		}
+	}
+
+    .description {
+        height: 1100px;
+    }
+	
+	.footer{
+		height: 120px;
 	}	
 }
