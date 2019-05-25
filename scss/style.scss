@@ -178,7 +178,7 @@ body {
     .program-img {
         height: 700px;
 		//image credits: Copyright Alan Burnett (CC BY-SA 2.0)
-        background: linear-gradient(rgba(62, 183, 208, 0.9),rgba(62, 183, 208, 0.9)), url('../img/images/museum-dark.jpg');
+        background: linear-gradient(rgba(62, 183, 208, 0.93),rgba(62, 183, 208, 0.93)), url('../img/images/museum-dark.jpg');
         background-position:center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -227,7 +227,7 @@ body {
 
         .line {
             height: 1px;
-            background-color: $beige-light;
+            background-color: $beige-lighter;
             width: 20%;
 			margin: 0 auto;
             margin-bottom: 40px;
@@ -245,10 +245,17 @@ body {
 			text-align: center;
         }
         ul li span {
-            color: white;
+            color: $beige-lighter;;
             margin-left: 30px;
 			text-align: center;
         }
+		
+		td{
+			padding: 4px 15px 4px 15px;
+			color: $beige-lighter;
+			text-align: left;
+		}
+		
     }
 
     // Program content

@@ -5081,7 +5081,7 @@ body {
 }
 .program .program-img {
   height: 700px;
-  background: linear-gradient(rgba(62, 183, 208, 0.9), rgba(62, 183, 208, 0.9)), url("../img/images/museum-dark.jpg");
+  background: linear-gradient(rgba(62, 183, 208, 0.93), rgba(62, 183, 208, 0.93)), url("../img/images/museum-dark.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5122,7 +5122,7 @@ body {
 }
 .program .program-content .line {
   height: 1px;
-  background-color: #D0D1CD;
+  background-color: #EFF0EB;
   width: 20%;
   margin: 0 auto;
   margin-bottom: 40px;
@@ -5139,9 +5139,14 @@ body {
   text-align: center;
 }
 .program .program-content ul li span {
-  color: white;
+  color: #EFF0EB;
   margin-left: 30px;
   text-align: center;
+}
+.program .program-content td {
+  padding: 4px 15px 4px 15px;
+  color: #EFF0EB;
+  text-align: left;
 }
 .program .program-content-black {
   padding-top: 40px;
