@@ -5077,17 +5077,17 @@ body {
 }
 
 .program {
-  height: 700px;
+  height: 1100px;
 }
 .program .program-img {
-  height: 700px;
+  height: 1100px;
   background: linear-gradient(rgba(62, 183, 208, 0.93), rgba(62, 183, 208, 0.93)), url("../img/images/museum-dark.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .program .program-img-nofilter {
-  height: 700px;
+  height: 1100px;
   background: url("../img/images/KIMc.jpg");
   background-position: center;
   background-size: cover;
