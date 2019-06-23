@@ -4973,10 +4973,13 @@ body.has-spaced-navbar-fixed-bottom {
   }
 
   .program {
-    height: 700px;
+    height: 1050px;
   }
   .program .program-img {
-    height: 700px;
+    height: 1050px;
+  }
+  .program .program-img-nofilter {
+    height: 1050px;
   }
   .program .program-content {
     padding: 20px 20px;
@@ -4996,7 +4999,7 @@ body.has-spaced-navbar-fixed-bottom {
     height: 100px;
   }
 }
-@media only screen and (max-width: 1147px) {
+@media only screen and (max-width: 1168px) {
   .about .about-img {
     height: 600px;
   }
@@ -5010,7 +5013,67 @@ body.has-spaced-navbar-fixed-bottom {
   }
 
   .program {
-    height: 500px;
+    height: 900px;
+  }
+  .program .program-img {
+    height: 1100px;
+  }
+  .program .program-img-nofilter {
+    height: 1100px;
+  }
+
+  .footer {
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 1056px) {
+  .about .about-img {
+    height: 600px;
+  }
+  .about .about-text {
+    height: 600px;
+  }
+
+  .attendees {
+    margin-top: 200px;
+    height: 600px;
+  }
+
+  .program {
+    height: 1000px;
+  }
+  .program .program-img {
+    height: 1200px;
+  }
+  .program .program-img-nofilter {
+    height: 1200px;
+  }
+
+  .footer {
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 825px) {
+  .about .about-img {
+    height: 600px;
+  }
+  .about .about-text {
+    height: 600px;
+  }
+
+  .attendees {
+    margin-top: 200px;
+    height: 600px;
+  }
+
+  .program {
+    height: 1200px;
+  }
+  .program .program-img {
+    height: 1400px;
+  }
+  .program .program-img-nofilter {
+    height: 1400px;
   }
 
   .footer {
@@ -5031,8 +5094,111 @@ body.has-spaced-navbar-fixed-bottom {
   }
 
   .program {
-    height: 700px;
+    height: 1100px;
     padding-top: 400px;
+  }
+  .program .program-img {
+    height: 1100px;
+  }
+  .program .program-img-nofilter {
+    display: none;
+  }
+
+  .directions {
+    height: 900px;
+  }
+  .directions .map {
+    height: 540px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  .directions .map-iframe {
+    height: 540px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding-left: 90px;
+    padding-top: 50px;
+  }
+
+  .description {
+    height: 700px;
+  }
+
+  .footer {
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 642px) {
+  .about {
+    height: 50px;
+  }
+  .about .about-img {
+    display: none;
+  }
+
+  .attendees {
+    margin-top: 350px;
+    height: 1700px;
+  }
+
+  .program {
+    height: 1200px;
+  }
+  .program .program-img {
+    height: 1200px;
+  }
+  .program .program-img-nofilter {
+    display: none;
+  }
+
+  .directions {
+    height: 900px;
+  }
+  .directions .map {
+    height: 540px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  .directions .map-iframe {
+    height: 540px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding-left: 90px;
+    padding-top: 50px;
+  }
+
+  .description {
+    height: 700px;
+  }
+
+  .footer {
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 501px) {
+  .about {
+    height: 50px;
+  }
+  .about .about-img {
+    display: none;
+  }
+
+  .attendees {
+    margin-top: 350px;
+    height: 1700px;
+  }
+
+  .program {
+    height: 1450px;
+  }
+  .program .program-img {
+    height: 1450px;
   }
   .program .program-img-nofilter {
     display: none;
@@ -5079,7 +5245,10 @@ body.has-spaced-navbar-fixed-bottom {
   }
 
   .program {
-    height: 700px;
+    height: 1500px;
+  }
+  .program .program-img {
+    height: 1450px;
   }
   .program .program-img-nofilter {
     display: none;
@@ -5126,7 +5295,10 @@ body.has-spaced-navbar-fixed-bottom {
   }
 
   .program {
-    height: 700px;
+    height: 1500px;
+  }
+  .program .program-img {
+    height: 1450px;
   }
   .program .program-img-nofilter {
     display: none;
@@ -5173,7 +5345,10 @@ body.has-spaced-navbar-fixed-bottom {
   }
 
   .program {
-    height: 700px;
+    height: 1500px;
+  }
+  .program .program-img {
+    height: 1450px;
   }
   .program .program-img-nofilter {
     display: none;
