@@ -1,5 +1,45 @@
 @import './global/global.scss';
 
+
+@media only screen and (max-width: 1900px) {
+
+    .about {
+
+        .about-text {
+
+            .about-text-content {
+                padding:30px 30px; 
+            }
+        }
+    }
+	
+    .attendees {
+		height: 1100px;
+    }	
+	
+}
+
+
+
+@media only screen and (max-width: 1559px) {
+
+    .about {
+
+        .about-text {
+
+            .about-text-content {
+                padding:30px 30px; 
+            }
+        }
+    }
+	
+    .attendees {
+		height: 1100px;
+    }	
+	
+}
+
+
 @media only screen and (max-width: 1418px) {
 
     .about {
@@ -13,7 +53,16 @@
     }
 	
     .attendees {
-		height: 500px;
+		height: 1100px;
+    }	
+	
+}
+
+
+@media only screen and (max-width: 1318px) {
+
+    .attendees {
+		height: 1200px;
     }	
 	
 }
@@ -39,7 +88,7 @@
     }
 
     .attendees {
-		height: 500px;
+		height: 1200px;
     }
 
     .program {
@@ -81,7 +130,6 @@
 
 
 
-// 769-798px -> 5th ".description" col is hidden
 @media only screen and (max-width: 1168px) {
 
     .about {
@@ -97,7 +145,7 @@
 
     .attendees {
         margin-top:200px;
-		height: 600px;
+		height: 1300px;
     }	
 	
     .program {
@@ -121,7 +169,6 @@
 
 
 
-// 769-798px -> 5th ".description" col is hidden
 @media only screen and (max-width: 1056px) {
 
     .about {
@@ -137,7 +184,7 @@
 
     .attendees {
         margin-top:200px;
-		height: 600px;
+		height: 1400px;
     }	
 	
     .program {
@@ -160,7 +207,7 @@
 
 
 
-// 769-798px -> 5th ".description" col is hidden
+
 @media only screen and (max-width: 825px) {
 
     .about {
@@ -176,7 +223,7 @@
 
     .attendees {
         margin-top:200px;
-		height: 600px;
+		height: 1400px;
     }	
 	
     .program {
@@ -213,7 +260,7 @@
 
     .attendees {
         margin-top: 350px;
-        height: 1700px;
+        height: 3800px;
     }
 
     .program {
@@ -272,7 +319,7 @@
 
     .attendees {
         margin-top: 350px;
-        height: 1700px;
+        height: 3800px;
     }
 
     .program {
@@ -330,7 +377,7 @@
 
     .attendees {
         margin-top: 350px;
-        height: 1700px;
+        height: 3800px;
     }
 
     .program {
@@ -388,7 +435,7 @@
 
     .attendees {
         margin-top: 350px;
-        height: 1700px;
+        height: 3800px;
     }
 
     .program {
@@ -445,7 +492,7 @@
 
     .attendees {
         margin-top: 350px;
-        height: 1700px;
+        height: 3800px;
     }
 
     .program {
@@ -501,7 +548,7 @@
 
     .attendees {
         margin-top: 350px;
-        height: 1700px;
+        height: 3800px;
     }
 
     .program {
